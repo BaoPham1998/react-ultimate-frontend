@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+}
+
+.todo-container {
+    background: linear-gradient(to right, #FEA66D, #CE6458);
+    height: 100vh;
+}
+
+.todo-title {
+    font-size: 34px;
+    /* background: linear-gradient(to right, #ea4c3a, #eacaa7);
+    -webkit-background-clip: text; */
+    color: white;
+    margin: 40px 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.todo-new {
+    width: 100%;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
+
+.todo-input {
+    width: 190px;
+    height: auto;
+    padding: 10px 14px;
+    background-color: #e1eff9;
+    border: none;
+    margin-right: 6px;
+    border-radius: 5px;
+}
+
+.todo-button {
+    width: 70px;
+    height: auto;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4B98EE;
+    color: white;
+    cursor: pointer;
+}
+
+.todo-button:hover {
+    background-color: #4480D8;
+}
+
+.todo-data {
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.todo-image {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-data {
+    background-color: #fff;
+    border-radius: 10px;
+    ;
+}
